@@ -13,17 +13,14 @@ plum.json = {
    };
     
 plum.doc = function () {
-   let tempDoc = createElement('div'),
-      company_name = createElement('div')
+   let tempDoc = createElement('div')
    ;
    
    // header - company info
-   company_name.createTextNode(plum.json.company);
-   company_name.createTextNode(plum.json.address);
+   tempDoc.appendChild(doc.createTextNode(plum.json.company));
+   tempDoc.appendChild(doc.createTextNode(plum.json.address));
    
    // checklist
-   
-   tempDoc.appendChild(company_name);
    
    return tempDoc;
 };

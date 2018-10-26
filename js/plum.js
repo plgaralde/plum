@@ -24,5 +24,9 @@ plum.doc = function () {
    
    return tempDoc;
 };
-    
+
+plum.init = function () {
+  console.log ('test');
+};
+
 doc.getElementsByTagName('body')[0].appendChild(plum.doc);

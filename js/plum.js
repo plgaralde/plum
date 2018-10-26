@@ -18,8 +18,8 @@ plum.doc = function () {
    ;
    
    // header - company info
-   company_name.createTextNode = plum.json.company;
-   company_name.createTextNode = plum.json.address;
+   company_name.createTextNode(plum.json.company);
+   company_name.createTextNode(plum.json.address);
    
    // checklist
    

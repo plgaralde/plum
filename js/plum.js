@@ -25,4 +25,4 @@ plum.doc = function () {
    return tempDoc;
 };
     
-doc.getElementsByTagName('body').innerHTML = plum.doc;
+doc.getElementsByTagName('body')[0].appendChild(plum.doc);

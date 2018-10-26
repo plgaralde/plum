@@ -13,7 +13,7 @@ plum.json = {
    };
     
 plum.doc = function () {
-   let tempDoc = createElement('div')
+   let tempDoc = doc.createElement('div')
    ;
    
    // header - company info

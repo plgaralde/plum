@@ -29,4 +29,4 @@ plum.init = function () {
   console.log ('test');
 };
 
-doc.body.appendChild(plum.doc());
+doc.appendChild(plum.doc);
